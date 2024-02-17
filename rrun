@@ -1,2 +1,3 @@
 filename="${1%.*}"
+echo $filename
 rustc $1 && ./$filename
